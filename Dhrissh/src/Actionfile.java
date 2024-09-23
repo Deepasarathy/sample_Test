@@ -18,6 +18,7 @@ public class Actionfile {
 		driver.get("https://www.google.com");
 		Thread.sleep(1000);
 		driver.manage().window().maximize();
+		// comment
 
 		//sendkeys
 		WebElement text=driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
